@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'header-image': "url('/assets/frontend-assets/header_img.png')",
+        'header-image': "url('/header_img.png')",
       },
       gridTemplateColumns: {
         '15': 'repeat(auto-fill, minmax(240px, 1fr))',
