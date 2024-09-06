@@ -9,7 +9,7 @@ export const foodlistAtom = atom({
 });
 export const urlAtom = atom({
     key: "urlAtom",
-    default: "http://localhost:4000"
+    default: https://swigato-backend-r88e.onrender.com"
 })
 export const tokenAtom = atom({
     key: "tokenAtom",
