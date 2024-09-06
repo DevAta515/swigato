@@ -8,7 +8,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
 });
 
 const placeOrder = async (req, res) => {
-    const frontURL = "http://localhost:5173";
+    const frontURL = "https://swigato-frontend-sjtv.onrender.com/";
     try {
         const { userId, items, amount, address } = req.body;
 
