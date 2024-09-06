@@ -9,7 +9,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const [count, setCount] = useState(0);
-  const url = "http://localhost:4000";
+  const url = "https://swigato-backend-r88e.onrender.com";
 
   return (
     <div>
