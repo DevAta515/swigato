@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const { orderRouter } = require("./routes/orderRoute")
@@ -6,7 +7,7 @@ const { foodRouter } = require("./routes/foodRoute.js");
 const { userRouter } = require("./routes/userRoute.js");
 const { cartRouter } = require("./routes/cartRoute.js");
 const { resetCartData } = require("./models/userModel.js")
-require('dotenv').config();
+
 
 const app = express();
 const PORT = process.env.PORT || 4000;
